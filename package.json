@@ -1,6 +1,6 @@
 {
   "name": "chfcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "脚手架",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "cli": "node ./bin/index.js --help"
   },
   "bin": {
-    "chf/cli": "./bin/index.js"
+    "@chfcli": "./bin/index.js"
   },
   "repository": {
     "type": "git",
