@@ -2,6 +2,7 @@
 
 const program = require('commander');
 const package = require('../package.json');
+const chalk = require('chalk');
 program
   .version(package.version)
   .usage('<command> [options]')
@@ -13,6 +14,11 @@ program
     .action(function (libraryName) {
       require('./build-library/index.js')(libraryName);
     });
+
+program.on('--help', function(){
+    console.log(chalk.blue('build-library <libraryName>:    构建包含各种规范的library'));
+    console.log('');
+  });
 
 program
   .arguments('<command>')

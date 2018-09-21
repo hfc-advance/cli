@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node ./bin/index.js build-library test"
+    "cli": "node ./bin/index.js --help"
   },
   "bin": {
     "chf/cli": "./bin/index.js"

@@ -2,7 +2,6 @@
 
 //! 模板地址
 let templateAddress = '13916253446/build-library-template';
-const chalk = require('chalk');
 const spinner = require('ora');
 const download = require('../../packages/downloadByGit.js');
 const copy = require('../../packages/copyTemplate.js');
