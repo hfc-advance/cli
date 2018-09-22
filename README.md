@@ -16,9 +16,9 @@ npm install -g chfcli
 
 ###### 描述：构建javascript开源项目（各种规范的js，ES规范，umd规范，commonjs规范）
 
-###### 事例：
+###### 示例：
 
 ```
 @chfcli build-library demo
-构建一个项目名为demo的开源项目
+// 构建一个项目名为demo的开源项目
 ```
